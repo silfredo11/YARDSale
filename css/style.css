@@ -76,7 +76,7 @@ header div .account a{
 
 /* Here start the main home */
 
-.main__home{
+.main__home,  .main__clothes{
     
     width: 95%;
     margin: 0 auto;
