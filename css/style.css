@@ -183,3 +183,98 @@ header div .account a{
     height: 25px;
     border-radius: 50%;
 }
+
+/* Here start the footer */
+
+footer{
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+  border-top: 1px solid var(--nav-color);
+    
+}
+.footer__top{
+    width: 95%;
+    display: flex;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid var(--nav-color);
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.footer__top-first div{
+    width:80px;
+    height: 80px;
+    background-image: url("https://img.icons8.com/emoji/344/envelope-with-arrow.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.footer__top-second div{
+    width:80px;
+    height: 80px;
+    background-image: url("https://img.icons8.com/ios-glyphs/344/unpacking.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.footer__top-third div{
+    width:80px;
+    height: 80px;
+    background-image: url("https://img.icons8.com/ios-filled/344/security-checked.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.footer__top-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer__top-card h3{
+    font-size: 2.0rem;
+    font-weight: 400;
+    color: var(--Black-color);
+    margin-top: 20px;
+    
+}
+
+.footer__top-card p{
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1.8rem;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.footer__top-card a{
+    font-size: 1.4rem;
+    color: #1259c3;
+    cursor: pointer;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.footer__bottom{
+    width: 95%;
+    display: flex;
+    padding-top: 10px;
+    margin: 0 auto;
+    flex-direction: column;
+}
+
+.footer__bottom-top{
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.footer__bottom-top li{
+    margin-right: 20px;
+    cursor: pointer;
+    font-size: 1.3rem;
+    color: var(--Black-color);
+}
