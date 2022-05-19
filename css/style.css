@@ -54,6 +54,7 @@ header nav ul li{
     color: var(--nav-color);
     font-weight: 500;
 }
+
 header div{
     margin-right: 38px;
     display: flex;
@@ -74,9 +75,50 @@ header div .account a{
     font-weight: 500;
 }
 
+.header__index nav ul li:nth-child(1){
+    border: 1px solid var(--prymari-color);
+    color: var(--prymari-color);
+    padding: 2px;
+    border-radius: 6px;
+}
+.header__clothes nav ul li:nth-child(2){
+    border: 1px solid var(--prymari-color);
+    color: var(--prymari-color);
+    padding: 2px;
+    border-radius: 6px;
+}
+
+.header__electronics nav ul li:nth-child(3){
+    border: 1px solid var(--prymari-color);
+    color: var(--prymari-color);
+    padding: 2px;
+    border-radius: 6px;
+}
+
+.header__furniture nav ul li:nth-child(4){
+    border: 1px solid var(--prymari-color);
+    color: var(--prymari-color);
+    padding: 2px;
+    border-radius: 6px;
+}
+
+.header__toys nav ul li:nth-child(5){
+    border: 1px solid var(--prymari-color);
+    color: var(--prymari-color);
+    padding: 2px;
+    border-radius: 6px;
+}
+
+.header__other ul li:nth-child(6){
+    border: 1px solid var(--prymari-color);
+    color: var(--prymari-color);
+    padding: 2px;
+    border-radius: 6px;
+}
+
 /* Here start the main home */
 
-.main__home,  .main__clothes{
+.main__home,  .main__clothes, .main__electronics, .main__furniture, .main__toys, .main__other{
     
     width: 95%;
     margin: 0 auto;
