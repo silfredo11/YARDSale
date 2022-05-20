@@ -1,0 +1,76 @@
+
+header{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    
+    border-bottom: 1px solid var(--nav-color);
+}
+header nav{
+    margin-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid var(--nav-color);
+}
+header nav picture{
+   display: none;
+}
+header nav ul {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 0;
+    width: 90%;
+    margin: 0 auto;
+}
+header nav ul li{
+    font-size: 1.6rem;
+}
+header div{
+    width: 100%;
+    justify-content: space-between;
+    margin-right: 0px;
+    padding: 10px 10px 10px 10px;
+}
+/* Here start the main style */
+.main__home-content{
+    grid-template-columns: repeat(1, 90%);
+    grid-template-rows: repeat(25, 335px);
+    justify-content: center;
+}
+
+.main__home-search{
+  width: 100%;
+}
+
+.main__home-search input{
+    width: 80%;
+    margin-right: 15px;
+   
+}
+.main__home-search a{
+    margin-right: 0px;
+}
+.main__home-search p {
+    display: none;
+}
+
+.main__home-search span{
+    display: none;
+}
+
+/* Here start the footer */
+
+footer section {
+    flex-direction: column;
+}
+.footer__top-card{
+    margin-bottom: 30px;
+}
+.footer__bottom-top li{
+   text-align: center;
+}
+.footer__bottom{
+    margin-top: 20px;
+}
